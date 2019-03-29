@@ -4,12 +4,23 @@ body {
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 33px;
   padding: 0 26px;
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+}
+
+.anchor-section {
+  color: black;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .svg {
@@ -48,11 +59,48 @@ body {
   height: 14px;
 }
 
+.heading {
+  margin-top: 60px;
+}
+
+.span-heading {
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .figure {
   position: relative;
   right: 35%;
+  width: 60vw;
 }
+
 .main-article .img {
   max-width: 945px;
   margin: 0 auto;
+}
+
+.fig-caption {
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  max-width: 720px;
+
+}
+
+.fig-sub-caption {
+  color: #888;
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+}
+
+.time {
+  letter-spacing: 0.02em;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  color: #333;
 }
