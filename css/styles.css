@@ -1,5 +1,6 @@
-body, figure {
-  margin: 0;
+body, figure, ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -171,7 +172,7 @@ body {
   text-decoration: none;
 }
 
-..footer-list a:hover {
+.footer-list a:hover {
   text-decoration: underline;
 }
 
@@ -179,3 +180,33 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.most-popular{
+  width: calc(-38.3333px + 33.3333vw);
+display: block;
+margin-left: 30px;
+max-width: 315px;
+padding: 15px 0px;
+border-top: 1px solid rgb(0, 0, 0);
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.375rem;
+}
+
+.most-popular-list li{
+  border-bottom: 1px solid rgb(226, 226, 226);
+padding: 15px 0px;
+list-style: outside none none;
+}
+.most-popular-list a{
+font-size: 1.1875rem;
+line-height: 1.4375rem;
+font-weight: 500;
+color: rgb(18, 18, 18);
+text-decoration: none;
+}
+
+.most-popular-list a:hover{
+  color: rgb(114, 113, 113);
+  }
