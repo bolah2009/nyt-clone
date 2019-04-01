@@ -104,3 +104,40 @@ body {
   font-weight: 500;
   color: #333;
 }
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-content{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.middle-left{
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  box-sizing: border-box;
+}
+
+
+.more-in-space-child{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-square{
+  width: 33%;
+}
+
+.link-square-img{
+  width: 100%;
+}
+
+.most-popular{
+  min-width: 40%;
+  box-sizing: border-box;
+}
