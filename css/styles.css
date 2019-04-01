@@ -1,7 +1,11 @@
-body {
-  font-family: "Playfair Display", serif;
+body, figure {
   margin: 0;
 }
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
 
 .navbar {
   height: 33px;
@@ -97,6 +101,15 @@ body {
   line-height: 1.125rem;
 }
 
+.article-fig-2 {
+  margin: 0;
+  width: 100%;
+}
+
+.article-fig-2 img {
+  width: 100%;
+}
+
 .time {
   letter-spacing: 0.02em;
   font-size: 0.8125rem;
@@ -113,24 +126,26 @@ body {
 .middle-content{
   display: flex;
   flex-direction: row;
-
+  margin: 0 70px;
 }
 
 .middle-left{
   display: flex;
   flex-direction: column;
-  min-width: 60%;
+  min-width: 70%;
   box-sizing: border-box;
 }
 
 
 .more-in-space-child{
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .link-square{
-  width: 33%;
+  width: 240px;
+
 }
 
 .link-square-img{
@@ -138,6 +153,29 @@ body {
 }
 
 .most-popular{
-  min-width: 40%;
+  min-width: 30%;
   box-sizing: border-box;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list li {
+  list-style-type: none;
+}
+
+.footer-list a {
+  color: black;
+  text-decoration: none;
+}
+
+..footer-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
 }
