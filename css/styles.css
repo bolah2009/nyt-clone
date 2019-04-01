@@ -3,9 +3,20 @@ body, figure {
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
 
 .navbar {
   height: 33px;
@@ -194,8 +205,16 @@ body {
   box-sizing: border-box;
 }
 
+.footer-hr {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+  height: 1px;
+  margin-bottom: 8px;
+}
+
 .first-footer {
   margin: 0 60px;
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .footer-section {
@@ -203,24 +222,94 @@ body {
   justify-content: space-between;
 }
 
+.go-home-anchor {
+  color: rgb(98, 136, 165);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+}
+
 .footer-list {
   padding: 0;
 }
 
-.footer-list li {
-  list-style-type: none;
+.footer-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  height: 23px;
+  line-height: 16px;
+  text-transform: capitalize;
 }
 
-.footer-list a {
+.footer-list-item a {
   color: black;
-  text-decoration: none;
 }
 
-.footer-list a:hover {
-  text-decoration: underline;
+.last-list-container {
+  border-left: 1px solid rgb(226, 226, 226);
+  display: flex;
+  padding-left: 15px;
+}
+
+.footer-list-item-header {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.item-special {
+  margin-bottom: 12px;
+}
+
+.anchor-item-special {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.anchor-item-small {
+  color: black;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+}
+
+.hr {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  margin-bottom: 8px;
+}
+
+.footer-svg {
+  margin-right: 3px;
 }
 
 .footer-header {
   display: flex;
   justify-content: space-between;
+}
+
+.page-footer-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anchor-footer {
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  text-align: center;
 }
