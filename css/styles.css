@@ -405,67 +405,74 @@ h2.headline {
   color: rgb(114, 113, 113);
 }
 
+.graphic-parent{
+  width: 100%;
+  overflow: hidden;
+}
 .graphic {
   height: auto;
-  max-width: 100%;
+  position: relative;
+  width: 720px;
 }
 
 .graphic img{
   display: block;
+  height: auto;
+width: 720px;
+}
+
+.graphic .bold {
+  font-size: 11px;
+font-weight: bold;
+letter-spacing: .05em;
+}
+
+.graphic p{
+  font-family: arial,helvetica,sans-serif;
+  font-size: 14px;
+line-height: 17px;
+font-weight: 300;
+color: #000000;
+margin: 0;
+}
+
+.graphic .top-1, .graphic .top-2, .graphic .top-3, .graphic .top-4, .graphic .bottom-1, .graphic .bottom-2, .graphic .bottom-3, .graphic .bottom-4 {
+  position: absolute;
+  width: 173px;
+}
+
+.graphic .top-1, .graphic .top-2, .graphic .top-3, .graphic .top-4{
+  top: 18.0556%;
+}
+
+.graphic .bottom-1, .graphic .bottom-2, .graphic .bottom-3, .graphic .bottom-4 {
+  top: 65.8951%;
+}
+
+.graphic .top-1{
+left: 0.2544%;
+}
+.graphic .top-2{
+left: 25.7029%;
+}
+.graphic .top-3{
+left: 51.1511%;
+}
+
+.graphic .top-4{
+left: 76.5995%;
+}
+.graphic .bottom-1{
+left: 0.2544%;
+}
+.graphic .bottom-2{
+left: 25.7029%;
+}
+.graphic .bottom-3{
+left: 51.1511%;
+}
+.graphic .bottom-4{
+left: 76.5995%;
 }
 
 
-
-/*****************
-
-height: auto;
-max-width: 100%;
-
-
-display: block;
-
-
-top: 18.0556%;
-left: 0.2544%;
-width: 173px;
-
-top: 18.0556%;
-left: 25.7029%;
-width: 173px;
-
-
-top: 18.0556%;
-left: 51.1511%;
-width: 173px;
-
-
-
-top: 18.0556%;
-left: 76.5995%;
-width: 173px;
-
-
-top: 65.8951%;
-left: 0.2544%;
-width: 173px;
-
-
-top: 65.8951%;
-left: 25.7029%;
-width: 173px;
-
-
-top: 65.8951%;
-left: 51.1511%;
-width: 173px;
-
-
-top: 65.8951%;
-left: 76.5995%;
-width: 173px;
-
-position: absolute;
-
-
-
-*******************/
