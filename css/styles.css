@@ -7,17 +7,13 @@ h2 {
   padding: 0px;
 }
 
-a {
-  text-decoration: none;
-  color: black
-}
-
 body {
   font-family: 'Roboto', serif;
 }
 
 a {
   text-decoration: none;
+  color: black
 }
 
 a:hover {
@@ -58,12 +54,8 @@ li {
   flex-direction: column;
   font-size: 1.1875rem;
   line-height: 1.8125rem;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   width: 600px;
-}
-
-.list {
-  list-style-type: none;
 }
 
 .list-item {
@@ -275,7 +267,7 @@ h2.headline {
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
   height: 1px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .first-footer {
@@ -284,6 +276,7 @@ h2.headline {
 }
 
 .footer-section {
+  margin: 22px 0 12px;
   display: flex;
   justify-content: space-between;
 }
@@ -324,7 +317,6 @@ h2.headline {
   font-weight: 700;
   height: 25px;
   line-height: 15px;
-  list-style-type: none;
   text-transform: uppercase;
 }
 
@@ -371,6 +363,7 @@ h2.headline {
 }
 
 .page-footer {
+  margin: 10px 0 35px;
   display: flex;
   justify-content: space-between;
 }
