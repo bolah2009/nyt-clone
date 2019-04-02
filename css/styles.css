@@ -321,3 +321,68 @@ h2.headline {
 .most-popular-list a:hover {
   color: rgb(114, 113, 113);
 }
+
+.graphic {
+  height: auto;
+  max-width: 100%;
+}
+
+.graphic img{
+  display: block;
+}
+
+
+
+/*****************
+
+height: auto;
+max-width: 100%;
+
+
+display: block;
+
+
+top: 18.0556%;
+left: 0.2544%;
+width: 173px;
+
+top: 18.0556%;
+left: 25.7029%;
+width: 173px;
+
+
+top: 18.0556%;
+left: 51.1511%;
+width: 173px;
+
+
+
+top: 18.0556%;
+left: 76.5995%;
+width: 173px;
+
+
+top: 65.8951%;
+left: 0.2544%;
+width: 173px;
+
+
+top: 65.8951%;
+left: 25.7029%;
+width: 173px;
+
+
+top: 65.8951%;
+left: 51.1511%;
+width: 173px;
+
+
+top: 65.8951%;
+left: 76.5995%;
+width: 173px;
+
+position: absolute;
+
+
+
+*******************/
