@@ -1,4 +1,4 @@
-# Project: HTML & CSS3: Positioning and Floating Elements ([NYT clone](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+# Project: HTML & CSS3: Positioning and Floating Elements ([NYT clone](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0))
 
 This is the third project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 * The goal is to learn about CSS3 Positioning and Floating Elements by recreating a NYT page 
