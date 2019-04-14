@@ -8,12 +8,11 @@ This is the third project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### [View in broswer](https://bolah2009.github.io/nyt-clone)
 
-#### Live ScreenShot of the page
-![ScreenShot 1](assets/nyt-clone-1.png)
-![ScreenShot 2](assets/nyt-clone-2.png)
-![ScreenShot 3](assets/nyt-clone-3.png)
+#### Live ScreenShot of the page (Desktop Version)
+![ScreenShot of New York Times website clone (Destop Version)](https://res.cloudinary.com/bolaah/image/upload/v1555231952/github-microverse-project/nyt-clone.png)
 
-
+#### To Do
+* Mobile Version (Responsive version)
 #### Authors
 
 * [@TorresChief](https://github.com/TorresChief)
